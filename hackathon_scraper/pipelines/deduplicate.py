@@ -12,23 +12,18 @@ def merge_hackathon_records(primary: Hackathon, secondary: Hackathon) -> Hackath
     Merges two matching hackathon records, preferring non-empty/higher confidence field values
     while recording candidate_values and selection_reason in provenance info when conflicts occur.
     """
-    # Merge source_sites
-    all_sources = list(dict.fromkeys(primary.source_sites + secondary.source_sites))
-    primary.source_sites = all_sources
-
-    # Check for conflicts in essential fields (e.g. event_start_date or registration_deadline)
-    if primary.event_start_date and secondary.event_start_date and primary.event_start_date != secondary.event_start_date:
-        # Conflicting event dates
+    # Check for conflicts in start_date or registration_deadline
+    if primary.start_date and secondary.start_date and primary.start_date != secondary.start_date:
         prov = primary.event_date_source if isinstance(primary.event_date_source, ProvenanceInfo) else ProvenanceInfo()
         prov.candidate_values.append({
             "source_site": secondary.source_site,
-            "event_start_date": secondary.event_start_date,
-            "event_end_date": secondary.event_end_date
+            "start_date": secondary.start_date,
+            "end_date": secondary.end_date
         })
         prov.selection_reason = f"Primary source ({primary.source_site}) value retained; secondary source ({secondary.source_site}) value recorded in candidate_values."
         primary.event_date_source = prov
         primary.validation_warnings.append(
-            f"Date conflict between {primary.source_site} ({primary.event_start_date}) and {secondary.source_site} ({secondary.event_start_date})"
+            f"Date conflict between {primary.source_site} ({primary.start_date}) and {secondary.source_site} ({secondary.start_date})"
         )
 
     if primary.registration_deadline and secondary.registration_deadline and primary.registration_deadline != secondary.registration_deadline:
@@ -49,13 +44,29 @@ def merge_hackathon_records(primary: Hackathon, secondary: Hackathon) -> Hackath
     if not primary.college and secondary.college:
         primary.college = secondary.college
         primary.college_source = secondary.college_source
+    if not primary.registration_url and secondary.registration_url:
+        primary.registration_url = secondary.registration_url
     if not primary.registration_deadline and secondary.registration_deadline:
         primary.registration_deadline = secondary.registration_deadline
         primary.deadline_source = secondary.deadline_source
-    if not primary.event_start_date and secondary.event_start_date:
-        primary.event_start_date = secondary.event_start_date
-        primary.event_end_date = secondary.event_end_date
+    if not primary.start_date and secondary.start_date:
+        primary.start_date = secondary.start_date
+        primary.end_date = secondary.end_date
         primary.event_date_source = secondary.event_date_source
+
+    if secondary.themes:
+        primary.themes = list(dict.fromkeys(primary.themes + secondary.themes))
+    if secondary.technologies:
+        primary.technologies = list(dict.fromkeys(primary.technologies + secondary.technologies))
+
+    if secondary.other_deadlines:
+        existing_names = {d["name"] for d in primary.other_deadlines if isinstance(d, dict) and "name" in d}
+        for d in secondary.other_deadlines:
+            if isinstance(d, dict) and d.get("name") not in existing_names:
+                primary.other_deadlines.append(d)
+
+    if secondary.source_site not in primary.source_sites:
+        primary.source_sites.append(secondary.source_site)
 
     # Take maximum confidence score
     primary.confidence = max(primary.confidence, secondary.confidence)

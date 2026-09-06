@@ -37,7 +37,7 @@ def export_normalized_records(records: List[Hackathon]) -> Dict[str, Path]:
     jsonl_path = NORMALIZED_OUTPUT_DIR / "hackathons.jsonl"
     csv_path = NORMALIZED_OUTPUT_DIR / "hackathons.csv"
 
-    dicts = [r.model_dump() for r in records]
+    dicts = [r.to_db_dict() if hasattr(r, "to_db_dict") else r.model_dump() for r in records]
 
     # Partition lists
     upcoming_records = []
@@ -48,7 +48,7 @@ def export_normalized_records(records: List[Hackathon]) -> Dict[str, Path]:
     duplicates_records = []
 
     for r, d in zip(records, dicts):
-        st = r.status.upper()
+        st = getattr(r, "status", "VALID").upper()
         if st == "DUPLICATE":
             duplicates_records.append(d)
         elif st == "PAST":
@@ -60,8 +60,8 @@ def export_normalized_records(records: List[Hackathon]) -> Dict[str, Path]:
         elif st == "INCOMPLETE":
             incomplete_records.append(d)
         elif st == "VALID":
-            # Strict upcoming rule: status == VALID AND page_type == EVENT AND not past
-            if r.page_type == "EVENT" and not is_past_event(r.event_end_date, r.event_start_date):
+            # Strict upcoming rule: status == VALID and not past
+            if not is_past_event(getattr(r, "end_date", None) or getattr(r, "start_date", None), getattr(r, "start_date", None)):
                 upcoming_records.append(d)
             else:
                 past_records.append(d)

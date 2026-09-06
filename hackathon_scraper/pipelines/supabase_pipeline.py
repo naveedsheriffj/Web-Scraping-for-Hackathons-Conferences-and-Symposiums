@@ -212,7 +212,7 @@ def sync_dicts_to_supabase(dicts: List[Dict[str, Any]]) -> Tuple[bool, str, Dict
 
 def sync_to_supabase(records: List[Hackathon]) -> Tuple[bool, str, Dict[str, int]]:
     """Syncs normalized Hackathon objects to Supabase."""
-    dicts = [r.model_dump() for r in records]
+    dicts = [r.to_db_dict() if hasattr(r, "to_db_dict") else r.model_dump() for r in records]
     return sync_dicts_to_supabase(dicts)
 
 

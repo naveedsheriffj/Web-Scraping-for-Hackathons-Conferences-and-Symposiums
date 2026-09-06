@@ -59,8 +59,8 @@ if __name__ == "__main__":
     print(f"Total Rows: {len(df_upcoming)} | Total Columns: {len(df_upcoming.columns)}\n")
     
     display_cols = [
-        "title", "source_site", "event_type", "event_start_date", "event_end_date",
-        "registration_deadline", "location", "city", "college", "team_size", "mode"
+        "title", "source_site", "event_type", "start_date", "end_date",
+        "registration_deadline", "location", "city", "college", "team_size_min", "team_size_max", "mode"
     ]
     avail_cols = [c for c in display_cols if c in df_upcoming.columns]
     
