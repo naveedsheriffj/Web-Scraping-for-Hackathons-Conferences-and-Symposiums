@@ -2,7 +2,7 @@ name: Daily Hackathon Scraper
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 12 * * *'  # Runs daily at 12:30 PM UTC (6:00 PM IST)
   workflow_dispatch:
 
 jobs:
