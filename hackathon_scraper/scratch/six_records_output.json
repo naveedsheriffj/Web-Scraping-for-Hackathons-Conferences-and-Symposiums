@@ -1,0 +1,781 @@
+[
+  {
+    "id": "6fe7a9f5f10d59cc5df48ed9a7fe110c8695f448690640dd81141123444d413a",
+    "title": "Hackrit",
+    "organizer": "Techno India University",
+    "college": "Techno India University",
+    "description": "Build Fast. Think Deep. Ship Real.",
+    "page_type": "EVENT",
+    "event_type": "HACKATHON",
+    "event_date": "2026-09-11 to 2026-09-12",
+    "event_start_date": "2026-09-11",
+    "event_end_date": "2026-09-12",
+    "registration_start": "2026-08-21",
+    "registration_deadline": "2026-09-06",
+    "submission_start": null,
+    "submission_deadline": null,
+    "screening_start": null,
+    "screening_end": null,
+    "grand_finale_date": null,
+    "event_date_raw": "2026-09-11T04:30:00+00:00",
+    "deadline_raw": "2026-09-06T18:29:00+00:00",
+    "registration_url": "https://hackrit2026.devfolio.co/",
+    "event_url": "https://hackrit2026.devfolio.co/",
+    "location": "Techno India University, EM Block, Sector V, Bidhannagar, Kolkata, West Bengal, India",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "mode": "OFFLINE",
+    "eligibility": null,
+    "team_size_min": 2,
+    "team_size_max": 4,
+    "solo_allowed": false,
+    "team_size": "2-4",
+    "prize_amount": null,
+    "prize_currency": "INR",
+    "prize_description": null,
+    "prize": null,
+    "skills": [],
+    "technologies": [],
+    "tags": [
+      "Devfolio"
+    ],
+    "source_site": "devfolio",
+    "source_sites": [
+      "devfolio"
+    ],
+    "source_url": "https://hackrit2026.devfolio.co/",
+    "event_date_source": {
+      "type": "embedded_json",
+      "url": "https://hackrit2026.devfolio.co/",
+      "label": null,
+      "raw_value": "2026-09-11T04:30:00+00:00",
+      "evidence_text": "hackathon.starts_at: 2026-09-11T04:30:00+00:00, ends_at: 2026-09-12T06:30:00+00:00",
+      "selection_reason": "Devfolio pageProps.hackathon starts_at and ends_at timestamps",
+      "candidate_values": []
+    },
+    "deadline_source": {
+      "type": "embedded_json",
+      "url": "https://hackrit2026.devfolio.co/",
+      "label": null,
+      "raw_value": "2026-09-06T18:29:00+00:00",
+      "evidence_text": "settings.reg_ends_at: 2026-09-06T18:29:00+00:00",
+      "selection_reason": "Devfolio pageProps.hackathon settings.reg_ends_at timestamp",
+      "candidate_values": [
+        {
+          "source": "embedded_json_settings",
+          "value": "2026-09-06",
+          "raw": "2026-09-06T18:29:00+00:00"
+        }
+      ]
+    },
+    "organizer_source": {
+      "type": "embedded_json",
+      "url": "https://hackrit2026.devfolio.co/",
+      "label": null,
+      "raw_value": "Techno India University",
+      "evidence_text": "Techno India University, EM Block, Sector V, Bidhannagar, Kolkata, West Bengal, India",
+      "selection_reason": "Parsed college from location/title",
+      "candidate_values": []
+    },
+    "college_source": {
+      "type": "embedded_json",
+      "url": "https://hackrit2026.devfolio.co/",
+      "label": null,
+      "raw_value": "Techno India University",
+      "evidence_text": "Techno India University, EM Block, Sector V, Bidhannagar, Kolkata, West Bengal, India",
+      "selection_reason": "Parsed college from location/title",
+      "candidate_values": []
+    },
+    "location_source": {
+      "type": "embedded_json",
+      "url": "https://hackrit2026.devfolio.co/",
+      "label": null,
+      "raw_value": "Techno India University, EM Block, Sector V, Bidhannagar, Kolkata, West Bengal, India",
+      "evidence_text": "Techno India University, EM Block, Sector V, Bidhannagar, Kolkata, West Bengal, India",
+      "selection_reason": "Devfolio pageProps.hackathon location string",
+      "candidate_values": []
+    },
+    "registration_url_source": {
+      "type": "embedded_json",
+      "url": "https://hackrit2026.devfolio.co/",
+      "label": null,
+      "raw_value": "https://hackrit2026.devfolio.co/",
+      "evidence_text": "https://hackrit2026.devfolio.co/",
+      "selection_reason": "Devfolio event page site/url",
+      "candidate_values": []
+    },
+    "team_size_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "prize_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "confidence": 0.95,
+    "scraped_at": "2026-09-06T14:12:39.558728+00:00",
+    "raw_data_hash": "5bb678b8bce19a2d4a61eaa6d05e8f76e9e358ecedb5d79501e5fe07ff403af1",
+    "status": "VALID",
+    "missing_fields": [],
+    "validation_warnings": []
+  },
+  {
+    "id": "bce308fb6abf281798422c1bab5ea8e64a7e180651d8ee1957588f2e63870b2d",
+    "title": "Metamorph 2.0",
+    "organizer": "Guru Nanak Institute of Technology",
+    "college": "Guru Nanak Institute of Technology",
+    "description": "Welcome to Metamorph 2.0\nHey everyone! Welcome to Metamorph 2.0, an in-person hackathon hosted at the Guru Nanak Institute of Technology (GNIT) in Panihati.\n\nWe\u2019re bringing together students for a weekend of coding, hardware building, and hanging out with other creators. It doesn't matter if you're a seasoned developer, a hardware tinkerer, or if this is your very first hackathon\u2014there is a place for you here. We\u2019re covering all the essentials (food, Wi-Fi, workspace, and some cool swag), so you can just focus on building something awesome.\n\n\ud83c\udfc6 Prizes & Categories\nWe\u2019ve put together a total prize pool of \u20b91,00,000. Along with the main overall prizes, we have a dedicated Hardware Track for those who like building physical projects.\n\nWe also really want to encourage new faces in the tech community to build with us, so we have special prize categories reserved specifically for the Best Beginner Project and the Best All-Girls Team.\n\n\ud83d\udccc The Details\nWhen: September 12th - 13th, 2026\n\nWhere: Guru Nanak Institute of Technology (GNIT), Panihati\n\nFormat: 100% Offline / In-person\n\nCost: Completely Free\n\n\ud83e\udd1d Teams\nYou can participate with a team of up to 4 members, or just apply solo. If you're coming alone, don't worry\u2014we\u2019ll get you into our Discord server before the event so you can chat with other folks and form a team before the hacking even begins.\n\nApplications close on September 3, 2026. We're reviewing applications on a rolling basis, so drop your application through Devfolio and we hope to see you on campus!",
+    "page_type": "EVENT",
+    "event_type": "HACKATHON",
+    "event_date": "2026-09-12 to 2026-09-13",
+    "event_start_date": "2026-09-12",
+    "event_end_date": "2026-09-13",
+    "registration_start": "2026-07-29",
+    "registration_deadline": "2026-09-06",
+    "submission_start": null,
+    "submission_deadline": null,
+    "screening_start": null,
+    "screening_end": null,
+    "grand_finale_date": null,
+    "event_date_raw": "2026-09-12T04:30:00+00:00",
+    "deadline_raw": "2026-09-06T18:29:00+00:00",
+    "registration_url": "https://www.metamorph.cloud/",
+    "event_url": "https://metamorph-2.devfolio.co/",
+    "location": "Guru Nanak Institute of Technology, Nilgunj Road, Sahid Colony, Panihati, West Bengal, India",
+    "city": "Panihati",
+    "state": "West Bengal",
+    "country": "India",
+    "mode": "OFFLINE",
+    "eligibility": null,
+    "team_size_min": 2,
+    "team_size_max": 4,
+    "solo_allowed": false,
+    "team_size": "2-4",
+    "prize_amount": null,
+    "prize_currency": "INR",
+    "prize_description": null,
+    "prize": null,
+    "skills": [],
+    "technologies": [],
+    "tags": [
+      "Devfolio"
+    ],
+    "source_site": "devfolio",
+    "source_sites": [
+      "devfolio"
+    ],
+    "source_url": "https://metamorph-2.devfolio.co/",
+    "event_date_source": {
+      "type": "embedded_json",
+      "url": "https://metamorph-2.devfolio.co/",
+      "label": null,
+      "raw_value": "2026-09-12T04:30:00+00:00",
+      "evidence_text": "hackathon.starts_at: 2026-09-12T04:30:00+00:00, ends_at: 2026-09-13T07:30:00+00:00",
+      "selection_reason": "Devfolio pageProps.hackathon starts_at and ends_at timestamps",
+      "candidate_values": []
+    },
+    "deadline_source": {
+      "type": "embedded_json",
+      "url": "https://metamorph-2.devfolio.co/",
+      "label": null,
+      "raw_value": "2026-09-06T18:29:00+00:00",
+      "evidence_text": "settings.reg_ends_at: 2026-09-06T18:29:00+00:00",
+      "selection_reason": "Devfolio pageProps.hackathon settings.reg_ends_at timestamp",
+      "candidate_values": [
+        {
+          "source": "embedded_json_settings",
+          "value": "2026-09-06",
+          "raw": "2026-09-06T18:29:00+00:00"
+        }
+      ]
+    },
+    "organizer_source": {
+      "type": "embedded_json",
+      "url": "https://metamorph-2.devfolio.co/",
+      "label": null,
+      "raw_value": "Guru Nanak Institute of Technology",
+      "evidence_text": "Guru Nanak Institute of Technology, Nilgunj Road, Sahid Colony, Panihati, West Bengal, India",
+      "selection_reason": "Parsed college from location/title",
+      "candidate_values": []
+    },
+    "college_source": {
+      "type": "embedded_json",
+      "url": "https://metamorph-2.devfolio.co/",
+      "label": null,
+      "raw_value": "Guru Nanak Institute of Technology",
+      "evidence_text": "Guru Nanak Institute of Technology, Nilgunj Road, Sahid Colony, Panihati, West Bengal, India",
+      "selection_reason": "Parsed college from location/title",
+      "candidate_values": []
+    },
+    "location_source": {
+      "type": "embedded_json",
+      "url": "https://metamorph-2.devfolio.co/",
+      "label": null,
+      "raw_value": "Guru Nanak Institute of Technology, Nilgunj Road, Sahid Colony, Panihati, West Bengal, India",
+      "evidence_text": "Guru Nanak Institute of Technology, Nilgunj Road, Sahid Colony, Panihati, West Bengal, India",
+      "selection_reason": "Devfolio pageProps.hackathon location string",
+      "candidate_values": []
+    },
+    "registration_url_source": {
+      "type": "embedded_json",
+      "url": "https://metamorph-2.devfolio.co/",
+      "label": null,
+      "raw_value": "https://www.metamorph.cloud/",
+      "evidence_text": "https://www.metamorph.cloud/",
+      "selection_reason": "Devfolio event page site/url",
+      "candidate_values": []
+    },
+    "team_size_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "prize_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "confidence": 0.95,
+    "scraped_at": "2026-09-06T14:12:40.105896+00:00",
+    "raw_data_hash": "c3533f7c99db3a1c6cc741d2ed05431cf9a09cd301c7a36255aeb6eff4cfb457",
+    "status": "VALID",
+    "missing_fields": [],
+    "validation_warnings": []
+  },
+  {
+    "id": "a4eb0cb03e25ab4fde9fb44c75d99d28036b4b3ff0db15acae657c11d5c1d554",
+    "title": "WebCraft24",
+    "organizer": "GL Bajaj Institute of Management",
+    "college": "GL Bajaj Institute of Management",
+    "description": "Fueled by Chaos. Powered by Code.",
+    "page_type": "EVENT",
+    "event_type": "HACKATHON",
+    "event_date": "2026-09-25 to 2026-09-26",
+    "event_start_date": "2026-09-25",
+    "event_end_date": "2026-09-26",
+    "registration_start": "2026-07-30",
+    "registration_deadline": "2026-09-10",
+    "submission_start": null,
+    "submission_deadline": null,
+    "screening_start": null,
+    "screening_end": null,
+    "grand_finale_date": null,
+    "event_date_raw": "2026-09-25T01:30:00+00:00",
+    "deadline_raw": "2026-09-10T18:29:00+00:00",
+    "registration_url": "https://webcraft24.devfolio.co/",
+    "event_url": "https://webcraft24.devfolio.co/",
+    "location": "GL Bajaj Institute of Management, Sardar Fateh Singh Road, Knowledge Park III, Greater Noida, Uttar Pradesh, India",
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "mode": "OFFLINE",
+    "eligibility": null,
+    "team_size_min": 2,
+    "team_size_max": 4,
+    "solo_allowed": false,
+    "team_size": "2-4",
+    "prize_amount": null,
+    "prize_currency": "INR",
+    "prize_description": null,
+    "prize": null,
+    "skills": [],
+    "technologies": [],
+    "tags": [
+      "Devfolio"
+    ],
+    "source_site": "devfolio",
+    "source_sites": [
+      "devfolio"
+    ],
+    "source_url": "https://webcraft24.devfolio.co/",
+    "event_date_source": {
+      "type": "embedded_json",
+      "url": "https://webcraft24.devfolio.co/",
+      "label": null,
+      "raw_value": "2026-09-25T01:30:00+00:00",
+      "evidence_text": "hackathon.starts_at: 2026-09-25T01:30:00+00:00, ends_at: 2026-09-26T01:30:00+00:00",
+      "selection_reason": "Devfolio pageProps.hackathon starts_at and ends_at timestamps",
+      "candidate_values": []
+    },
+    "deadline_source": {
+      "type": "embedded_json",
+      "url": "https://webcraft24.devfolio.co/",
+      "label": null,
+      "raw_value": "2026-09-10T18:29:00+00:00",
+      "evidence_text": "settings.reg_ends_at: 2026-09-10T18:29:00+00:00",
+      "selection_reason": "Devfolio pageProps.hackathon settings.reg_ends_at timestamp",
+      "candidate_values": [
+        {
+          "source": "embedded_json_settings",
+          "value": "2026-09-10",
+          "raw": "2026-09-10T18:29:00+00:00"
+        }
+      ]
+    },
+    "organizer_source": {
+      "type": "embedded_json",
+      "url": "https://webcraft24.devfolio.co/",
+      "label": null,
+      "raw_value": "GL Bajaj Institute of Management",
+      "evidence_text": "GL Bajaj Institute of Management, Sardar Fateh Singh Road, Knowledge Park III, Greater Noida, Uttar Pradesh, India",
+      "selection_reason": "Parsed college from location/title",
+      "candidate_values": []
+    },
+    "college_source": {
+      "type": "embedded_json",
+      "url": "https://webcraft24.devfolio.co/",
+      "label": null,
+      "raw_value": "GL Bajaj Institute of Management",
+      "evidence_text": "GL Bajaj Institute of Management, Sardar Fateh Singh Road, Knowledge Park III, Greater Noida, Uttar Pradesh, India",
+      "selection_reason": "Parsed college from location/title",
+      "candidate_values": []
+    },
+    "location_source": {
+      "type": "embedded_json",
+      "url": "https://webcraft24.devfolio.co/",
+      "label": null,
+      "raw_value": "GL Bajaj Institute of Management, Sardar Fateh Singh Road, Knowledge Park III, Greater Noida, Uttar Pradesh, India",
+      "evidence_text": "GL Bajaj Institute of Management, Sardar Fateh Singh Road, Knowledge Park III, Greater Noida, Uttar Pradesh, India",
+      "selection_reason": "Devfolio pageProps.hackathon location string",
+      "candidate_values": []
+    },
+    "registration_url_source": {
+      "type": "embedded_json",
+      "url": "https://webcraft24.devfolio.co/",
+      "label": null,
+      "raw_value": "https://webcraft24.devfolio.co/",
+      "evidence_text": "https://webcraft24.devfolio.co/",
+      "selection_reason": "Devfolio event page site/url",
+      "candidate_values": []
+    },
+    "team_size_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "prize_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "confidence": 0.95,
+    "scraped_at": "2026-09-06T14:12:40.465382+00:00",
+    "raw_data_hash": "0e9865c6d386a091a3ab9f49a6ec9d0751ce94c4a0e155a84ac6b8a7fbf3547e",
+    "status": "VALID",
+    "missing_fields": [],
+    "validation_warnings": []
+  },
+  {
+    "id": "cf6fcac9a4b586c2dff6466a792f13337cdf90c5814b4158cabf68ab480c318b",
+    "title": "HackCelestial 3.0",
+    "organizer": "Pillai University, Navi Mumbai",
+    "college": "Dr. K. M. Vasudevan Pillai Campus",
+    "description": "<p><em><strong>Note:</strong></em></p> <ul> <li><em><strong>Only the Finalist / shortlisted teams will be required to pay a participation fee of \u20b91,500.</strong></em></li> <li><em><strong>You will receive the payment link only if you are shortlisted.</strong></em></li> <li><em><strong>For the Problem Statements, please visit:</strong></em><strong> </strong><strong><a href=\"https://tech.alegria.co.in/tracks\" data-rich-text-autolink=\"\">https://tech.alegria.co.in/tracks</a></strong></li> </ul> <p><em><strong>Overview:</strong></em></p> <p>HackCelestial is a high-energy, 24-hour innovation sprint that brings together talented student developers, designers, and problem-solvers to tackle real-world challenges. Participants are challenged to design and develop impactful solutions using Generative AI and core software development skills. Through intense collaboration, rapid prototyping, and creative thinking, teams compete to solve specific problem statements while pushing the boundaries of technology and innovation. Whether you're here to learn, build, or lead, HackCelestial offers the perfect platform to code, collaborate, and create something extraordinary.</p> <ul> <li><strong>Date:</strong> 26&ndash;27 September 2026</li> <li><strong>No. of Days:</strong> 2 Days</li> <li><strong>Members Count:</strong> 1&ndash;5 per team</li> <li><strong>Registration Fees:</strong> \u20b91,500 per team (For Final Round) (Round 1, Idea Submission is FREE!)</li> <li><strong>Mode:</strong> Offline</li> </ul> <p><strong>Why HackCelestial 3.0:</strong></p> <ul> <li>Real World Problem Solving</li> <li>Networking Opportunities</li> <li>Mentor Guidance</li> <li>Jamming Sessions</li> <li>Exciting Goodies</li> <li>Internship Opportunities</li> <li>Exclusive Goodies for Girl Participants</li> </ul> <p><strong>Prize Pool:</strong> \u20b91,50,000</p> <ul> <li>Top 3 teams will receive cash prizes.</li> <li>The top 5 teams will receive additional goodies as a special reward.</li> <li>Award for Excellence in AI Application</li> <li>Award for Excellence in User Interface Design</li> </ul> <p><strong>Theme: Hospitality &amp; Travel</strong></p> <p>Calling all explorers, innovators, dreamers, and problem-solvers!</p> <p>This HackCelestial, we&rsquo;re taking innovation beyond the screen and into the world of <strong>hospitality and travel</strong>. It&rsquo;s your chance to rethink how people explore new places, experience destinations, discover cultures, and connect with the world around them. From making travel more personalized and accessible to creating smarter hotel experiences and sustainable tourism solutions, there&rsquo;s no limit to what you can build. Whether you&rsquo;re passionate about travel, hospitality, technology, sustainability, or simply solving everyday problems, this is your opportunity to turn your ideas into something meaningful.</p> <p>Bring your <strong>creativity, technical skills, and problem-solving mindset</strong> to the table as we work towards making travel more seamless, inclusive, memorable, and responsible.</p> <p>Your challenge, should you choose to accept it, is to build innovative solutions across these exciting areas:</p> <ul> <li><strong>Smart Travel &amp; Personalization:</strong> Reimagine trip planning with AI-powered recommendations, personalized itineraries, intelligent travel assistants, and solutions that make every journey smoother and more enjoyable.</li> <li><strong>Hospitality &amp; Guest Experience:</strong> Create smarter hotel and hospitality experiences &mdash; from seamless check-ins and personalized services to better guest engagement and innovative ways to make visitors feel at home.</li> <li><strong>Sustainable &amp; Responsible Tourism:</strong> Build solutions that encourage eco-friendly travel, reduce waste, manage resources efficiently, and help destinations grow without compromising the environment.</li> <li><strong>Accessible &amp; Inclusive Travel:</strong> Make travel more welcoming for everyone by addressing accessibility challenges, supporting travelers with different needs, and creating experiences that leave no one behind.</li> <li><strong>Local Experiences &amp; Cultural Discovery:</strong> Help travelers discover the authentic side of a destination by connecting them with local communities, businesses, food, culture, and unique experiences.</li> <li><strong>Travel Safety &amp; Convenience:</strong> Solve everyday travel challenges by improving navigation, safety, communication, crowd management, emergency assistance, and other aspects of the journey.</li> </ul> <p><strong>The goal is simple: reimagine travel, redefine hospitality, and build experiences that people will remember.</strong></p> <p><strong>Facilities:</strong></p> <ul> <li>Free Accommodation (Accommodation within the campus)</li> <li>Food Accessibility (Breakfast, Lunch, Dinner)</li> </ul> <p><strong>Additional Perks:</strong></p> <ul> <li>Participation Certificate</li> <li>Winner Certificate</li> <li>Goodies</li> </ul> <p><strong>Rules &amp; Guidelines:</strong></p> <ul> <li>Teams must consist of <strong>1 to 5 members</strong>; <strong>cross-college teams are allowed</strong>.</li> <li>Each team may submit only one problem statement solution, which must be <strong>original and developed during the hackathon</strong>.</li> <li><strong>Plagiarism or replication</strong> of existing solutions without significant modification will lead to <strong>immediate disqualification</strong>.</li> <li>Submissions must be made through Unstop or Google Form, and all <strong>deadlines must be strictly followed</strong>; late submissions will not be evaluated.</li> <li>A <strong>working prototype or simulation is mandatory</strong> for the <strong>finals</strong>.</li> <li><strong>Judges&rsquo; decisions are final and binding</strong>, and they may request <strong>technical clarifications or design justifications</strong> during evaluations.</li> <li><strong>Prize distribution </strong>for top-performing teams are subject to <strong>performance and interview rounds</strong>.</li> <li>Teams must <strong>stay active and responsive</strong> regarding <strong>review schedules and shortlisting announcements</strong>.</li> <li><strong>All team members must bring their own devices</strong> and <strong>stay on campus for the full duration</strong> of the offline event; <strong>accommodation will be provided</strong>.</li> <li>Participants are expected to <strong>maintain professionalism and discipline</strong> during all rounds and interactions.</li> <li><strong>Only official communications</strong> shared via the event <strong>website and email</strong> should be followed.</li> <li><strong>Teams violating rules or engaging in unethical practices will be disqualified immediately</strong>.</li> </ul>",
+    "page_type": "EVENT",
+    "event_type": "COMPETITION",
+    "event_date": "2026-09-26 to 2026-09-27",
+    "event_start_date": "2026-09-26",
+    "event_end_date": "2026-09-27",
+    "registration_start": "2026-08-17",
+    "registration_deadline": "2026-09-27",
+    "submission_start": null,
+    "submission_deadline": null,
+    "screening_start": "2026-08-17",
+    "screening_end": "2026-09-09",
+    "grand_finale_date": "2026-09-26",
+    "event_date_raw": "2026-08-17T16:00:00+05:30",
+    "deadline_raw": "2026-09-27T23:59:00+05:30",
+    "registration_url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+    "event_url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+    "location": "Dr. K. M. Vasudevan Pillai Campus, Plot No. 10, Sector 16, New Panvel East, Panvel, Navi Mumbai, Maharashtra 410206, Navi Mumbai, Maharashtra, India",
+    "city": "Navi Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "mode": "OFFLINE",
+    "eligibility": null,
+    "team_size_min": 1,
+    "team_size_max": 5,
+    "solo_allowed": true,
+    "team_size": "1-5",
+    "prize_amount": 150000.0,
+    "prize_currency": "INR",
+    "prize_description": null,
+    "prize": "INR 150,000",
+    "skills": [
+      "Coding",
+      "Hackathon"
+    ],
+    "technologies": [],
+    "tags": [
+      "Unstop"
+    ],
+    "source_site": "unstop",
+    "source_sites": [
+      "unstop"
+    ],
+    "source_url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+    "event_date_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+      "label": null,
+      "raw_value": "2026-09-26",
+      "evidence_text": "Unstop competition API rounds finale date: 2026-09-26",
+      "selection_reason": "Mapped finale/event round start_date from Unstop competition API rounds",
+      "candidate_values": []
+    },
+    "deadline_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+      "label": null,
+      "raw_value": "2026-09-27T23:59:00+05:30",
+      "evidence_text": "end_regn_dt: 2026-09-27T23:59:00+05:30",
+      "selection_reason": "Unstop public API regnRequirements.end_regn_dt",
+      "candidate_values": []
+    },
+    "organizer_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+      "label": null,
+      "raw_value": "Pillai University, Navi Mumbai",
+      "evidence_text": "Pillai University, Navi Mumbai",
+      "selection_reason": "Unstop public API organisation.name",
+      "candidate_values": []
+    },
+    "college_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+      "label": null,
+      "raw_value": "Dr. K. M. Vasudevan Pillai Campus",
+      "evidence_text": "Dr. K. M. Vasudevan Pillai Campus",
+      "selection_reason": "Unstop public API address/organizer college name",
+      "candidate_values": []
+    },
+    "location_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+      "label": null,
+      "raw_value": "Dr. K. M. Vasudevan Pillai Campus, Plot No. 10, Sector 16, New Panvel East, Panvel, Navi Mumbai, Maharashtra 410206, Navi Mumbai, Maharashtra, India",
+      "evidence_text": "Dr. K. M. Vasudevan Pillai Campus, Plot No. 10, Sector 16, New Panvel East, Panvel, Navi Mumbai, Maharashtra 410206, Navi Mumbai, Maharashtra, India",
+      "selection_reason": "Unstop public API address_with_country_logo",
+      "candidate_values": []
+    },
+    "registration_url_source": {
+      "type": "visible_event_page",
+      "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+      "label": null,
+      "raw_value": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+      "evidence_text": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+      "selection_reason": "Page event URL",
+      "candidate_values": []
+    },
+    "team_size_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "prize_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "confidence": 1.0,
+    "scraped_at": "2026-09-06T14:12:40.538888+00:00",
+    "raw_data_hash": "f2c776221550a912761aa479743c28fb6eaa7aed72e89d08d2852bc3599734f0",
+    "status": "VALID",
+    "missing_fields": [],
+    "validation_warnings": [
+      "Registration deadline (2026-09-27) is after event start date (2026-09-26)"
+    ]
+  },
+  {
+    "id": "cac458d9da0c601e9b6ab734320008a0fac712803ad1feb5dc2d3bd1a5d14cf9",
+    "title": "Singularity Hackathon",
+    "organizer": "AJ Institute of Engineering and Technology (AJIET), Mangalore, Karnataka",
+    "college": "A J Institute of Engineering and Technology",
+    "description": "<p><strong>Overview</strong></p> <p><strong>The Singularity</strong> is a <strong>National-Level Artificial Intelligence Hackathon</strong> that is a software-focused competition designed to provide students with an opportunity to demonstrate their technical expertise, problem-solving abilities, innovation, and software development skills in the field of <strong>Artificial Intelligence</strong>.</p> <p>The hackathon will be conducted in <strong>two rounds</strong>. The first round will involve profile-based screening of registered teams. Shortlisted teams will advance to the offline final round, where they will be presented with AI-focused problem statements revealed during the event.</p> <p><strong>Eligibility</strong></p> <ul> <li>The hackathon is open to students from colleges and educational institutions across India.</li> <li>All participants must register through <strong>Unstop</strong>.</li> <li>Each team must consist of a <strong>minimum of 2 and a maximum of 4 members</strong>.</li> <li><strong>Inter-college teams are permitted.</strong></li> <li><strong>Inter-branch and inter-specialization teams are permitted.</strong></li> <li>Team members may belong to different academic disciplines, branches, or specializations.</li> <li>Each participant may register as a member of <strong>only one team</strong>.</li> <li>All participants must provide accurate and valid information during registration.</li> <li>Shortlisted teams must comply with all requirements and instructions communicated by the organizing committee.</li> </ul> <p><strong>Theme and Format</strong></p> <ul> <li><strong>Theme:</strong> Artificial Intelligence</li> <li><strong>Format:</strong> Software Hackathon</li> <li><strong>Hardware:</strong> The hackathon is strictly software-based; hardware-based solutions are not required.</li> </ul> <p><strong>Tracks</strong></p> <p>The final round will cover the following AI-focused domains:</p> <ul> <li><strong>AI for Coastal Intelligence</strong></li> <li><strong>AI for Supply Chain Intelligence</strong></li> <li><strong>AI for Industrial Intelligence</strong></li> </ul> <p>Teams will be presented with a <strong>specific problem statement within one of these domains at the beginning of the offline hackathon</strong>.</p> <p>Teams will be required to design, develop, and demonstrate a <strong>functional software solution</strong> within the specified hackathon duration.</p> <p><strong>Registration and Participation Fee</strong></p> <p><strong>Round 1 Registration Fee: Free</strong></p> <p><strong>Round 2 Final Round Fee: \u20b9650 per shortlisted team</strong></p> <p>The \u20b9650 fee is applicable <strong>per team and not per participant</strong>.</p> <p>The final-round participation fee includes:</p> <ul> <li><strong>Accommodation during the hackathon</strong></li> <li><strong>Food during the event</strong></li> <li>Travel expenses are <strong>not included</strong> and must be borne by the participants.</li> </ul> <p>Registration and official communication regarding the hackathon will be conducted through <strong>Unstop</strong> and the official communication channels of the organizing committee.</p> <p><strong>Team Rules</strong></p> <ul> <li>Each team must consist of a <strong>minimum of 2 and a maximum of 4 members</strong>.</li> <li><strong>Inter-college teams are allowed.</strong></li> <li><strong>Inter-branch and inter-specialization teams are allowed.</strong></li> <li>A participant cannot be a member of <strong>more than one team</strong>.</li> <li>All team members must provide accurate and verifiable information.</li> <li>Any change in team composition after shortlisting requires <strong>prior approval from the organizing committee</strong>.</li> <li>Only shortlisted teams that complete the required final-round registration process will be eligible to participate in the offline hackathon.</li> <li>All team members must report to the designated venue within the specified reporting time.</li> <li>Participants must carry a <strong>valid college/student identification document</strong> for verification.</li> <li>Participants are responsible for making their own travel arrangements and covering their travel expenses.</li> <li>Teams must comply with all instructions and guidelines issued by the organizing committee.</li> </ul> <p><strong>Hackathon Rules</strong></p> <ul> <li>The hackathon is strictly <strong>software-based</strong> and focuses on the theme of <strong>Artificial Intelligence</strong>.</li> <li><strong>Hardware-based submissions are not permitted</strong> under any circumstances.</li> <li>Problem statements or tracks will be disclosed at the <strong>beginning of the offline round</strong>.</li> <li>Teams must develop their solutions within the <strong>specified hackathon duration</strong>.</li> <li>Each team must submit and demonstrate <strong>its own solution</strong>.</li> <li><strong>Plagiarism, impersonation, unauthorized copying, or submission of another team's work will result in immediate disqualification.</strong></li> <li>Teams may use existing libraries, frameworks, APIs, open-source tools, and publicly available resources, subject to the guidelines provided during the event.</li> <li><strong>Previously developed projects must not be submitted as a complete solution</strong> to the assigned problem statement.</li> <li>Any external datasets, APIs, models, libraries, or other resources used in a project must be appropriately acknowledged wherever required.</li> <li>Teams must ensure that their submissions comply with applicable intellectual property, licensing, and usage requirements.</li> <li>Any attempt to manipulate the evaluation process, misrepresent information, or violate the hackathon rules may result in <strong>disqualification</strong>.</li> <li>Participants must maintain professional conduct and follow the instructions of the organizing committee, mentors, and judges throughout the event.</li> <li>The decision of the <strong>judging panel and organizing committee will be final and binding</strong>.</li> <li>The organizing committee reserves the right to modify the schedule, rules, format, or other event-related details if circumstances require. Any significant changes will be communicated through the official communication channels.</li> </ul> <p>By registering for and participating in the <strong>National-Level Artificial Intelligence Hackathon</strong>, all participants acknowledge and agree to comply with the rules, guidelines, requirements, and decisions of the organizing committee and judging panel.</p>",
+    "page_type": "EVENT",
+    "event_type": "COMPETITION",
+    "event_date": "2026-10-08 to 2026-10-09",
+    "event_start_date": "2026-10-08",
+    "event_end_date": "2026-10-09",
+    "registration_start": "2026-09-02",
+    "registration_deadline": "2026-09-30",
+    "submission_start": null,
+    "submission_deadline": null,
+    "screening_start": "2026-09-03",
+    "screening_end": "2026-09-30",
+    "grand_finale_date": "2026-10-08",
+    "event_date_raw": "2026-09-02T00:00:00+05:30",
+    "deadline_raw": "2026-09-30T00:00:00+05:30",
+    "registration_url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+    "event_url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+    "location": "A J Institute of Engineering and Technology, Mangaluru, Karnataka, India",
+    "city": "Mangaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "mode": "OFFLINE",
+    "eligibility": null,
+    "team_size_min": 2,
+    "team_size_max": 4,
+    "solo_allowed": false,
+    "team_size": "2-4",
+    "prize_amount": 20000.0,
+    "prize_currency": "INR",
+    "prize_description": null,
+    "prize": "INR 20,000",
+    "skills": [
+      "Coding",
+      "Hackathon"
+    ],
+    "technologies": [],
+    "tags": [
+      "Unstop"
+    ],
+    "source_site": "unstop",
+    "source_sites": [
+      "unstop"
+    ],
+    "source_url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+    "event_date_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+      "label": null,
+      "raw_value": "2026-10-08",
+      "evidence_text": "Unstop competition API rounds finale date: 2026-10-08",
+      "selection_reason": "Mapped finale/event round start_date from Unstop competition API rounds",
+      "candidate_values": []
+    },
+    "deadline_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+      "label": null,
+      "raw_value": "2026-09-30T00:00:00+05:30",
+      "evidence_text": "end_regn_dt: 2026-09-30T00:00:00+05:30",
+      "selection_reason": "Unstop public API regnRequirements.end_regn_dt",
+      "candidate_values": []
+    },
+    "organizer_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+      "label": null,
+      "raw_value": "AJ Institute of Engineering and Technology (AJIET), Mangalore, Karnataka",
+      "evidence_text": "AJ Institute of Engineering and Technology (AJIET), Mangalore, Karnataka",
+      "selection_reason": "Unstop public API organisation.name",
+      "candidate_values": []
+    },
+    "college_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+      "label": null,
+      "raw_value": "A J Institute of Engineering and Technology",
+      "evidence_text": "A J Institute of Engineering and Technology",
+      "selection_reason": "Unstop public API address/organizer college name",
+      "candidate_values": []
+    },
+    "location_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+      "label": null,
+      "raw_value": "A J Institute of Engineering and Technology, Mangaluru, Karnataka, India",
+      "evidence_text": "A J Institute of Engineering and Technology, Mangaluru, Karnataka, India",
+      "selection_reason": "Unstop public API address_with_country_logo",
+      "candidate_values": []
+    },
+    "registration_url_source": {
+      "type": "visible_event_page",
+      "url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+      "label": null,
+      "raw_value": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+      "evidence_text": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180",
+      "selection_reason": "Page event URL",
+      "candidate_values": []
+    },
+    "team_size_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "prize_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "confidence": 1.0,
+    "scraped_at": "2026-09-06T14:12:40.589987+00:00",
+    "raw_data_hash": "cec6aba4d2d0817a39b65936e2e361a417e0015a1cb11d8a9bf40f2d258eeccc",
+    "status": "VALID",
+    "missing_fields": [],
+    "validation_warnings": []
+  },
+  {
+    "id": "9b2902a08ac506af720223c62e49f8d1b92358a47c5ef4e7d3afb9dfea495ebc",
+    "title": "Code Clash",
+    "organizer": "RV UNIVERSITY",
+    "college": "RV University",
+    "description": "<p><strong>About the Event</strong></p> <p><strong>Code-Clash</strong> is an ICPC-style competitive programming contest designed to provide participants with a challenging and practical coding environment. The competition focuses on <strong>logical thinking, algorithmic problem-solving, efficient implementation, optimization, and coding under strict time constraints</strong>.</p> <p><strong>Guidelines</strong></p> <ul> <li>The event is open to undergraduate students from colleges/universities in India.</li> <li>Participants must have basic programming knowledge and familiarity with algorithms and problem-solving.</li> <li>Participation is team-based.</li> <li>Each team must consist of 2&ndash;3 members.</li> <li>Inter-college teams are allowed.</li> <li>Participants from different branches/specializations may form a team.</li> <li>Each team will use one computer provided/assigned in the computer laboratory.</li> <li>Participants must use the login credentials provided by the organizers.</li> <li>The contest will be conducted using the systems available in the computer lab.</li> <li>Supported programming languages are: <ul> <li>C</li> <li>C++</li> <li>Java</li> <li>Python</li> </ul> </li> <li>The contest will be conducted for <strong>3 hours</strong>.</li> <li>The event will take place from <strong>2:00 PM to 5:00 PM on 25 September 2026</strong>.</li> <li>The contest will be conducted <strong>offline at the RV University Computer Lab</strong>, using an online contest platform.</li> <li>The maximum expected participation is approximately <strong>90&ndash;150 students / 30&ndash;50 teams</strong>, subject to capacity.</li> <li>Registration fee: <strong>\u20b9150 per team</strong>.</li> <li>Registration deadline: <strong>25 September 2026</strong>.</li> </ul> <p><strong>Competition Format</strong></p> <p><strong>Single Round &ndash; Competitive Programming Contest</strong></p> <p>The event consists of <strong>one continuous 3-hour round</strong>.</p> <ul> <li><strong>Time:</strong> 2:00 PM &ndash; 5:00 PM</li> <li><strong>Duration:</strong> 3 hours</li> <li><strong>Mode:</strong> Offline</li> <li><strong>Venue:</strong> Computer Lab, RV University</li> <li><strong>Platform:</strong> DOMjudge</li> </ul> <p>During the contest:</p> <ul> <li>Teams will receive access to the programming problems through the contest platform.</li> <li>Teams will analyze the problems and develop solutions.</li> <li>Solutions can be submitted using C, C++, Java, or Python.</li> <li>Each submission will be automatically evaluated by <strong>DOMjudge</strong>.</li> <li>Teams will receive results based on whether their submitted solutions pass the required test cases.</li> <li>Teams can make multiple submissions during the contest.</li> <li>Rankings will be updated according to the contest scoring system.</li> <li>There are <strong>no separate preliminary, semi-final, or final rounds</strong>.</li> </ul> <p><strong>Judging &amp; Scoring</strong></p> <p>The contest follows an <strong>ICPC-style scoring system</strong>.</p> <p>Teams will be ranked based on:</p> <ul> <li>Number of problems successfully solved</li> <li>Points associated with the solved problems</li> <li>Time taken to solve the problems</li> <li>Penalties incurred due to incorrect submissions</li> </ul> <p>Solutions will be <strong>automatically evaluated using DOMjudge</strong>.</p> <p>In accordance with ICPC-style scoring, incorrect submissions may result in <strong>penalty time</strong>.</p> <p>The team with the best overall ranking at the end of the contest will be declared the winner.</p> <p><strong>Rules</strong></p> <ul> <li>Each team must have <strong>2&ndash;3 members</strong>.</li> <li>Only one computer may be used by each team.</li> <li>Participants must use only the programming languages permitted for the contest: <strong>C, C++, Java, and Python</strong>.</li> <li>Participants must use the login credentials provided by the organizers.</li> <li>Participants must not engage in plagiarism or unauthorized collaboration.</li> <li>Teams must not share solutions or code with other teams during the contest.</li> <li>Any attempt to obtain unfair assistance may result in disqualification.</li> <li>Participants must comply with all <strong>online proctoring requirements</strong>, if applicable.</li> <li>Participants must follow the instructions of event coordinators, invigilators, and the technical team.</li> <li>Any form of malpractice, plagiarism, cheating, or violation of contest integrity may result in <strong>immediate disqualification</strong>.</li> <li>Participants must report to the venue before the contest begins.</li> <li>Participants must use only the systems and resources permitted by the organizers.</li> <li>The decision of the event organizers regarding rule violations, scoring, and final rankings will be <strong>final and binding</strong>.</li> </ul> <p><strong>Prizes &amp; Certificates</strong></p> <ul> <li><strong>Winner:</strong> \u20b93,000 + Trophy + Certificate</li> <li><strong>Runner-Up:</strong> \u20b92,000 + Certificate</li> <li><strong>2nd Runner-Up:</strong> \u20b91,000 + Certificate</li> <li><strong>Participation certificates</strong> will be provided to all participating teams.</li> </ul> <p><strong>Important Information</strong></p> <ul> <li><strong>Date:</strong> 25 September 2026</li> <li><strong>Time:</strong> 2:00 PM &ndash; 5:00 PM</li> <li><strong>Duration:</strong> 3 Hours</li> <li><strong>Venue:</strong> Computer Lab, RV University</li> <li><strong>Mode:</strong> Offline</li> <li><strong>Team Size:</strong> 2&ndash;3 members</li> <li><strong>Registration Fee:</strong> \u20b9150 per team</li> <li><strong>Registration Deadline:</strong> 25 September 2026</li> <li><strong>Platform:</strong> DOMjudge</li> <li><strong>Languages:</strong> C, C++, Java, Python</li> </ul>",
+    "page_type": "EVENT",
+    "event_type": "COMPETITION",
+    "event_date": "2026-09-25 to 2026-09-25",
+    "event_start_date": "2026-09-25",
+    "event_end_date": "2026-09-25",
+    "registration_start": "2026-09-04",
+    "registration_deadline": "2026-09-25",
+    "submission_start": null,
+    "submission_deadline": null,
+    "screening_start": null,
+    "screening_end": null,
+    "grand_finale_date": "2026-09-25",
+    "event_date_raw": "2026-09-04T00:00:00+05:30",
+    "deadline_raw": "2026-09-25T00:00:00+05:30",
+    "registration_url": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+    "event_url": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+    "location": "RV University, Bangalore, Karnataka, India",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India",
+    "mode": "OFFLINE",
+    "eligibility": null,
+    "team_size_min": 2,
+    "team_size_max": 3,
+    "solo_allowed": false,
+    "team_size": "2-3",
+    "prize_amount": 3000.0,
+    "prize_currency": "INR",
+    "prize_description": null,
+    "prize": "INR 3,000",
+    "skills": [
+      "Coding",
+      "Hackathon"
+    ],
+    "technologies": [],
+    "tags": [
+      "Unstop"
+    ],
+    "source_site": "unstop",
+    "source_sites": [
+      "unstop"
+    ],
+    "source_url": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+    "event_date_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+      "label": null,
+      "raw_value": "2026-09-25",
+      "evidence_text": "Unstop competition API rounds finale date: 2026-09-25",
+      "selection_reason": "Mapped finale/event round start_date from Unstop competition API rounds",
+      "candidate_values": []
+    },
+    "deadline_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+      "label": null,
+      "raw_value": "2026-09-25T00:00:00+05:30",
+      "evidence_text": "end_regn_dt: 2026-09-25T00:00:00+05:30",
+      "selection_reason": "Unstop public API regnRequirements.end_regn_dt",
+      "candidate_values": []
+    },
+    "organizer_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+      "label": null,
+      "raw_value": "RV UNIVERSITY",
+      "evidence_text": "RV UNIVERSITY",
+      "selection_reason": "Unstop public API organisation.name",
+      "candidate_values": []
+    },
+    "college_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+      "label": null,
+      "raw_value": "RV University",
+      "evidence_text": "RV University",
+      "selection_reason": "Unstop public API address/organizer college name",
+      "candidate_values": []
+    },
+    "location_source": {
+      "type": "api_response",
+      "url": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+      "label": null,
+      "raw_value": "RV University, Bangalore, Karnataka, India",
+      "evidence_text": "RV University, Bangalore, Karnataka, India",
+      "selection_reason": "Unstop public API address_with_country_logo",
+      "candidate_values": []
+    },
+    "registration_url_source": {
+      "type": "visible_event_page",
+      "url": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+      "label": null,
+      "raw_value": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+      "evidence_text": "https://unstop.com/competitions/code-clash-rv-university-rvu-bangalore-1749224",
+      "selection_reason": "Page event URL",
+      "candidate_values": []
+    },
+    "team_size_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "prize_source": {
+      "type": "unknown",
+      "url": null,
+      "label": null,
+      "raw_value": null,
+      "evidence_text": null,
+      "selection_reason": null,
+      "candidate_values": []
+    },
+    "confidence": 1.0,
+    "scraped_at": "2026-09-06T14:12:40.632016+00:00",
+    "raw_data_hash": "c3feddaa971665962d77fda02ce35fcc958899197738ad3b44649bda274a93cd",
+    "status": "VALID",
+    "missing_fields": [],
+    "validation_warnings": []
+  }
+]

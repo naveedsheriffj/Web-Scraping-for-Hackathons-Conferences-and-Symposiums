@@ -1,0 +1,94 @@
+{
+  "execution_date": "2026-09-06",
+  "total_records_processed": 1,
+  "summary_counts": {
+    "valid_upcoming": 0,
+    "incomplete": 0,
+    "invalid": 1,
+    "past": 0,
+    "conflicts": 0,
+    "duplicates": 0
+  },
+  "field_coverage": {
+    "title": {
+      "count": 1,
+      "percentage": 100.0
+    },
+    "organizer": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "college": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "description": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "event_start_date": {
+      "count": 1,
+      "percentage": 100.0
+    },
+    "event_end_date": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "registration_deadline": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "location": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "city": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "state": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "mode": {
+      "count": 1,
+      "percentage": 100.0
+    },
+    "team_size": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "team_size_min": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "team_size_max": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "prize": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "prize_amount": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "eligibility": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "registration_url": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "skills": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "technologies": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  }
+}
